@@ -973,7 +973,7 @@ strong{
         width: 100%;
     }
 }
-@media (max-width : 325px){
+@media (max-width : 373px){
     .title{
         background-size: cover;
         background-position:center;
@@ -1117,7 +1117,7 @@ strong{
     #signup {
         border-radius: 5px;
         margin-top: 10px;
-        width: 10vmax;
+        width: 13vmax;
         padding: 0px 0px;
         font-size: 1.2vmax;
     }
