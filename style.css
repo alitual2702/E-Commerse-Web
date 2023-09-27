@@ -973,7 +973,7 @@ strong{
         width: 100%;
     }
 }
-@media (max-width : 320px){
+@media (max-width : 325px){
     .title{
         background-size: cover;
         background-position:center;
