@@ -117,7 +117,7 @@ body{
 .title-paragraph{
     letter-spacing: 1px;
     font-size: 1.4vmax;
-    color:#b2bec3;
+    color:#a1a1a1;
     margin-bottom: 30px;
 }
 .title-shop{
@@ -791,7 +791,6 @@ strong{
         padding: 2px 0px;
     }
 }
-
 @media (max-width : 599px){
     .each-item{
         width: 40%;
@@ -857,18 +856,14 @@ strong{
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
-        gap: 50px;
-        width: 35%;
+        gap: 20px;
+        width: 50%;
         height: 100vh;
         background-color: #127C76;
         transition: right 0.3s ease-in-out;
     }
     .bag-link{
-      position: absolute;
       color: #fff;
-      left: 0%;
-      top: 54%;
-      padding-left: 20px;
       text-decoration: none;
       font-size: 20px;
       font-weight: 600;
@@ -881,7 +876,7 @@ strong{
         font-size: 18px;
     }
     .links{
-        position: absolute;
+        position: relative;
         top: 50px;
         left: 0px;
         font-size: 20px;
@@ -906,7 +901,7 @@ strong{
     }
     .cross-bar{
         position: absolute;
-        top: 0%;
+        top: 1%;
         padding-left: 15px;
         left: 1%;
         cursor: pointer;
@@ -938,5 +933,203 @@ strong{
     .collection-link{
         font-size: 13px;
         letter-spacing: 1px;
+    }
+}
+@media (max-width : 480px){
+    .title{
+        height: 600px;
+        background-size: cover;
+        background-position: 0%  0% 0% 100%;
+    }
+    .title-box {
+        padding-left: 10px;
+    }
+    .title-sec-line {
+        font-size: 5vmax;
+    }
+    .title-sec-line-sec {
+        font-size: 5.5vmax;
+    }
+    .title-paragraph {
+        font-size: 1.4vmax;
+    }
+    .bottom-text-small-div {
+        font-size: 2.5vmax;
+    }
+    .button-small-div {
+        padding: 8px 20px;
+        font-size: 1.5vmax;
+    }
+    .mob-media {
+        padding: 5px;
+        margin: 24px 0px;
+    }
+    .numberwise-icons {
+        padding: 0px 2px;
+    }
+    .responsive-flex{
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+    }
+}
+@media (max-width : 320px){
+    .title{
+        background-size: cover;
+        background-position:center;
+        height: 350px;
+    }
+    .each-item{
+        width: 46%;
+    }
+    .nav-links{
+        height: 100%;
+        gap: 60px;
+        text-align: center;
+        width: 100%;
+    }
+    .list{
+        width: 100%;
+    }
+    .links{
+        font-size: 25px;
+        top: 70px;
+        width: 100%;
+        text-align: center;
+    }
+    .bag-link i{
+        font-size: 25px;
+    }
+    .title-sec-line {
+        margin-top: 5px;
+        font-size: 2.6vmax;
+        margin-bottom: 8px;
+    }
+    .title-sec-line-sec {
+        text-shadow: 1px 1px 5cm #ffffff;
+        mix-blend-mode: multiply;
+        font-size: 3.2vmax;
+    }
+    .title-paragraph {
+        font-size: 0.9vmax;
+    }
+    .title-shop {
+        width: 19vmax;
+        font-size: 1.8vmax;
+    }
+    .item-caption {
+        font-size: 1.19vmax;
+        padding: 6px 2px;
+    }
+    .feature-title {
+        font-size: 3.1vmax;
+        font-weight: 600;
+    }
+    .feature-paragraph {
+        font-size: 1.4vmax;
+    }
+    .product-main-container {
+        width: 100%;
+        display: block;
+    }
+    .feature-products {
+        
+        padding: 12px;
+        width: 100%;
+    }
+    .brand-name {
+        font-size: 2.1vmax;
+    }
+    .product-name {
+        margin: 3px 0px;
+        font-size: 2.2vmax;
+    }
+    .all-stars {
+        margin: 3px 0px;
+        font-size: 2.2vmax;
+    }
+    .product-shop-cart {
+        font-size: 2.2vmax;
+    }
+    .products-price {
+        font-size: 2.2vmax;
+    }
+    .small-div {
+        margin: 30px 0px;
+        padding: 10px 0px;
+    }
+    .bottom-text-small-div {
+        font-size: 2vmax;
+    }
+    .only-top-text {
+        font-size: 1.6vmax;
+    }
+    .button-small-div {
+        padding: 9px 12px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        font-size: 1.4vmax;
+    }
+    .left, .right {
+        height: 25vmax;
+        padding: 8px;
+    }
+    .collection-offer {
+        font-size: 2.5vmax;
+    }
+    .collection-link {
+        font-size: 10px;
+    }
+    .ancoll {
+        height: 18vmax;
+    }
+    .another-title {
+        font-size: 2.5vmax;
+    }
+    .another-discription {
+        font-size: 2vmax;
+    }
+    .content-form-title {
+        text-align: center;
+        font-size: 2.5vmax;
+    }
+    .content-form-discription {
+        font-size: 1.3vmax;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    .form-section {
+        width: 100%;
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+    .form-input{
+        width: 100%;
+        padding: 0px 10px;
+        flex-direction: column;
+    }
+    #text {
+        padding: 6px 6px;
+        border-radius: 5px;
+        font-size: 12px;
+        width: 100%;
+    }
+    #signup {
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 10vmax;
+        padding: 0px 0px;
+        font-size: 1.2vmax;
+    }
+    .responsive-flex {
+        justify-content: center;
+        width: 100%;
+    }
+    .copyright {
+        font-size: 9px;
+        padding: 2px 0px;
+    }
+    .c{
+        font-size: 16px;
     }
 }
